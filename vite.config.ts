@@ -11,12 +11,25 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        name: 'ClassApp - Öğretmen Asistanı',
-        short_name: 'ClassApp',
+        name: 'BulGetir',
+        short_name: 'BulGetir',
         description: 'Çevrimdışı öğrenci listeleri ve oturma planı uygulaması',
         theme_color: '#ffffff',
         background_color: '#ffffff',
-        display: 'standalone'
+        display: 'standalone',
+        icons: [
+          {
+            src: '/elephentlogo.png',
+            sizes: '192x192',
+            type: 'image/png'
+          },
+          {
+            src: '/elephentlogo.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable'
+          }
+        ]
       },
       workbox: {
         // Önceden cache'lenecek dosya limitleri (Excel gibi dosyalar IndexedDB'de tutulacak, PWA sadece core app dosyalarını cache'lesin)
