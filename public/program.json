@@ -1,0 +1,8696 @@
+{
+  "format": "ogretmen_ders_programi",
+  "versiyon": 1,
+  "ogretmenler": {
+    "ASİBE KARAOĞLU": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "AYLİN GABRALI": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SAĞLIK BİLGİSİ TRAFİK KÜLTÜRÜ",
+            "sinif": "11/F"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SAĞLIK BİLGİSİ TRAFİK KÜLTÜRÜ",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/F"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SAĞLIK BİLGİSİ TRAFİK KÜLTÜRÜ",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/F"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/B"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/C"
+          }
+        ]
+      }
+    },
+    "BEHİYE YILMAZ ÖNDER": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "BEKTAŞ ÇALI": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [],
+        "9": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "BURCU ALAY": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/E"
+          }
+        ]
+      }
+    },
+    "BURCU ÖZKAYA": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/C"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/F"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/F"
+          }
+        ]
+      }
+    },
+    "CANAN GÜNGÖR ÇOŞKUN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "DİJİTAL OFİS UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİJİTAL OFİS UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "HIZLI KLAVYE KULLANIMI",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "HIZLI KLAVYE KULLANIMI",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BÜRO TEKNOLOJİLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "BÜRO TEKNOLOJİLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/E"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BÜRO HİZMETLERİ",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BÜRO HİZMETLERİ",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BÜRO HİZMETLERİ",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BÜRO TEKNOLOJİLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BÜRO TEKNOLOJİLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "YAZIŞMA VE DOSYALAMA TEKNİKLERİ",
+            "sinif": "11/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YAZIŞMA VE DOSYALAMA TEKNİKLERİ",
+            "sinif": "11/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YAZIŞMA VE DOSYALAMA TEKNİKLERİ",
+            "sinif": "11/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "YAZIŞMA VE DOSYALAMA TEKNİKLERİ",
+            "sinif": "11/E"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "10/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "10/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "10/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "10/E"
+          }
+        ],
+        "9": []
+      }
+    },
+    "CENGİZ KONDAL": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "COŞKUN TÜFEKÇİ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "PAZARLAMA MEVZUATI",
+            "sinif": "11/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "PAZARLAMA MEVZUATI",
+            "sinif": "11/F"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "SATIŞ TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SATIŞ TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "PERAKENDE PAKET PROGRAMLARI",
+            "sinif": "11/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "PERAKENDE PAKET PROGRAMLARI",
+            "sinif": "11/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "PERAKENDE PAKET PROGRAMLARI",
+            "sinif": "11/F"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/F"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "PERAKENDE MATEMATİĞİ",
+            "sinif": "11/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "PERAKENDE MATEMATİĞİ",
+            "sinif": "11/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "PERAKENDE MATEMATİĞİ",
+            "sinif": "11/F"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SATIŞ TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SATIŞ TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/F"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "CUMA ÖZKARA": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/A"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/A"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/C"
+          }
+        ]
+      }
+    },
+    "DİLEK PARMAKSIZ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "İŞ VE SOSYAL GÜVENLİK HUKUKU",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "İŞ VE SOSYAL GÜVENLİK HUKUKU",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "MALİYET MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MALİYET MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "VERGİ VE BEYANNAMELER",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "VERGİ VE BEYANNAMELER",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "EDA ŞENOL": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/D"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/D"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MESLEKİ YABANCI DİL-2",
+            "sinif": "11/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MESLEKİ YABANCI DİL-2",
+            "sinif": "11/E"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "EMRE ALKAN": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ MESLEKİ MATEMATİK",
+            "sinif": "12/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ MESLEKİ MATEMATİK",
+            "sinif": "12/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ E-TİCARET",
+            "sinif": "12/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ E-TİCARET",
+            "sinif": "12/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ E-TİCARET",
+            "sinif": "12/E"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "ÜRÜN BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "ÜRÜN BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "ÜRÜN BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "ÜRÜN BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "PAZARLAMA İLKELERİ",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "PAZARLAMA İLKELERİ",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "SEÇMELİ E-TİCARET UYGULAMALARI",
+            "sinif": "12/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ E-TİCARET UYGULAMALARI",
+            "sinif": "12/F"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "12/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ PAZARLAMADA YENİ YAKLAŞIMLAR",
+            "sinif": "12/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ PAZARLAMADA YENİ YAKLAŞIMLAR",
+            "sinif": "12/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ PAZARLAMADA YENİ YAKLAŞIMLAR",
+            "sinif": "12/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ PAZARLAMADA YENİ YAKLAŞIMLAR",
+            "sinif": "12/F"
+          }
+        ]
+      }
+    },
+    "ENGİN ÇELİK": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "7": [],
+        "8": [],
+        "9": [
+          {
+            "ders": "SEÇMELİ AÇIK KAYNAK İŞLETİM SİSTEMİ",
+            "sinif": "12/A"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "SEÇMELİ AÇIK KAYNAK İŞLETİM SİSTEMİ",
+            "sinif": "12/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ AÇIK KAYNAK İŞLETİM SİSTEMİ",
+            "sinif": "12/B"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/B"
+          }
+        ]
+      }
+    },
+    "ERCAN OĞUZ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/A"
+          }
+        ],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "11/B"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/B"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/A"
+          }
+        ]
+      }
+    },
+    "ERDOĞAN SENCER TAŞÇI": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "GİRİŞİMCİLİK VE İŞLETME YÖNETİMİ",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "GİRİŞİMCİLİK VE İŞLETME YÖNETİMİ",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/C"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "ESRA EVCİMENT": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "İŞ VE SOSYAL GÜVENLİK HUKUKU",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "İŞ VE SOSYAL GÜVENLİK HUKUKU",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "MALİYET MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MALİYET MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "VERGİ VE BEYANNAMELER",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "VERGİ VE BEYANNAMELER",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL MUHASEBE",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "FİKRİYE ALÇELER COŞKUN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/F"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/G"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/A"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/A"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "GÜLSEN ATAK": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/D"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/C"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/C"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/A"
+          }
+        ]
+      }
+    },
+    "GÜLÇİN GÜLTEKİN": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "MESLEKİ YABANCI DİL",
+            "sinif": "11/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MESLEKİ YABANCI DİL",
+            "sinif": "11/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MESLEKİ YABANCI DİL",
+            "sinif": "11/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/B"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/F"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "GÜLŞAH TUGAY AYDIN": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "WEB UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "WEB UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ TİCARET HİZMETLERİ",
+            "sinif": "12/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ TİCARET HİZMETLERİ",
+            "sinif": "12/E"
+          }
+        ],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "İLERİ OFİS UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "İLERİ OFİS UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "İLERİ OFİS UYGULAMALARI",
+            "sinif": "11/E"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "GÜRKAN KAYA": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "HASAN AKYILDIZ": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "EKONOMİ",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/C"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [],
+        "9": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/C"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ FİNANSAL OKUR-YAZARLIK",
+            "sinif": "12/D"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ BANKACILIK",
+            "sinif": "12/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "HATİCE AYDENİZ UN": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/F"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/A"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/B"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/B"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "FELSEFE",
+            "sinif": "10/D"
+          }
+        ]
+      }
+    },
+    "HAVVA KORKMAZ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/A"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "12/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/E"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/F"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/A"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "T.C. İNK.TAR.VE ATATÜRKÇÜLÜK",
+            "sinif": "12/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TARİH",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "HAYRETTİN ÖZSOY": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "KEREM GEDEMEN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/E"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TASARIM PROGRAMLARI",
+            "sinif": "11/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TASARIM PROGRAMLARI",
+            "sinif": "11/E"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ BİYOLOJİ",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SAĞLIK BİLGİSİ TRAFİK KÜLTÜRÜ",
+            "sinif": "11/E"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SAĞLIK BİLGİSİ TRAFİK KÜLTÜRÜ",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİYOLOJİ",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "TASARIM PROGRAMLARI",
+            "sinif": "11/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TASARIM PROGRAMLARI",
+            "sinif": "11/E"
+          }
+        ]
+      }
+    },
+    "MAVİŞ KILINÇ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KONAKLAMA VE SEYAHAT HİZMETLERİ ATÖLYESİ",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "GENEL TURİZM",
+            "sinif": "9/G"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "MELEK MADAK": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/D"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/D"
+          }
+        ],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/B"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "MELTEM ÜSTÜNOL": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/A"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/E"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/D"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/E"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/A"
+          }
+        ]
+      }
+    },
+    "METE HAN AYDOĞDU": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BİLGİSAYARLI TASARIM UYGULAMALARI",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/B"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "NİYAZİ ERCAN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "ŞİRKETLER MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "ŞİRKETLER MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "12/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "ONUR TUNCA": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/E"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/C"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/C"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/G"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/G"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/G"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/E"
+          }
+        ]
+      }
+    },
+    "ORHAN YALÇINDAĞ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/B"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GRAFİK VE CANLANDIRMA",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "NESNE TABANLI PROGRAMLAMA",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "REDİFE ALTAN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "ŞİRKETLER MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "ŞİRKETLER MUHASEBESİ",
+            "sinif": "11/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BİLGİSAYARLI MUHASEBE",
+            "sinif": "11/C"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TEMEL HUKUK",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "RUKİYE BÜTÜN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/E"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "11/A"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/A"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "KURAN-I KERİM'İN ANLAM DÜNYASI",
+            "sinif": "11/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ PEYGAMBERİMİZİN HAYATI",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "12/D"
+          }
+        ]
+      }
+    },
+    "SAMET YILMAZ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/C"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/E"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/F"
+          }
+        ]
+      }
+    },
+    "SEDAT AKBALIK": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/D"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "11/B"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/F"
+          }
+        ],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/D"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ SPOR EĞİTİMİ",
+            "sinif": "9/B"
+          }
+        ]
+      }
+    },
+    "SELDA AĞDAŞ": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/B"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "SEMRA ÇEBER": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "11/C"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "DİKSİYON VE ETKİLİ İLETİŞİM",
+            "sinif": "10/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİKSİYON VE ETKİLİ İLETİŞİM",
+            "sinif": "10/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/C"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/B"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "DİKSİYON VE ETKİLİ İLETİŞİM",
+            "sinif": "10/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "DİKSİYON VE ETKİLİ İLETİŞİM",
+            "sinif": "10/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/E"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI-10",
+            "sinif": "10/C"
+          }
+        ]
+      }
+    },
+    "SERAP DALKIRAN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "GİRİŞİMCİLİK VE İŞLETME YÖNETİMİ",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "GİRİŞİMCİLİK VE İŞLETME YÖNETİMİ",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/D"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "GENEL MUHASEBE",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "SEVAL ÜNER": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/F"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "SEÇMELİ TEMEL DİNİ BİLGİLER",
+            "sinif": "9/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/E"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/G"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/E"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "9/F"
+          }
+        ],
+        "9": []
+      }
+    },
+    "SEVİL ÖZVER": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "12/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/G"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "11/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE-9)",
+            "sinif": "9/G"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "YABANCI DİL(İNGİLİZCE)",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [],
+        "9": []
+      }
+    },
+    "SEZİN ÇAMDERE": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/F"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/D"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "12/E"
+          }
+        ],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/B"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/E"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "KİMYA",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/C"
+          }
+        ],
+        "6": [
+          {
+            "ders": "KİMYA",
+            "sinif": "10/C"
+          }
+        ],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "SİBEL AKILLI": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ WEB TABANLI İÇERİK YÖNETİMİ",
+            "sinif": "12/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "WEB TABANLI UYGULAMA GELİŞTİRME",
+            "sinif": "11/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "TUĞÇE TÜFEKÇİ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/F"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/D"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/D"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "11/F"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "UFUK ASLAN": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "12/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "ROBOTİK VE KODLAMA",
+            "sinif": "10/B"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ]
+      }
+    },
+    "YEŞİM GÜNGÖR": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "11/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/E"
+          }
+        ],
+        "7": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "COĞRAFYA",
+            "sinif": "10/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/F"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+            "sinif": "10/F"
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ COĞRAFYA",
+            "sinif": "11/F"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "YILDIZ TURUT": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "REHBERLİK VE YÖNLENDİRME",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ TEMEL MATEMATİK",
+            "sinif": "11/E"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/D"
+          }
+        ],
+        "8": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SEÇMELİ ASTRONOMİ VE UZAY BİLİMLERİ",
+            "sinif": "10/D"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/D"
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/A"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/E"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/D"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/D"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "10/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MATEMATİK",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
+    "ZEYNEP BİLDİK": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "3": [],
+        "4": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/D"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/A"
+          }
+        ],
+        "9": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/A"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "6": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "FİZİK",
+            "sinif": "10/C"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/D"
+          }
+        ],
+        "9": [
+          {
+            "ders": "FİZİK",
+            "sinif": "9/D"
+          }
+        ]
+      }
+    },
+    "ÖMER BEHİÇ BARK": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/F"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜRK DİLİ VE EDEBİYATI",
+            "sinif": "12/F"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [
+          {
+            "ders": "SEÇMELİ METİN TAHLİLLERİ",
+            "sinif": "9/G"
+          }
+        ]
+      }
+    },
+    "ÖZGÜR KURBAN": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "HIZLI KLAVYE KULLANIMI",
+            "sinif": "10/E"
+          }
+        ],
+        "4": [
+          {
+            "ders": "HIZLI KLAVYE KULLANIMI",
+            "sinif": "10/E"
+          }
+        ],
+        "5": [
+          {
+            "ders": "PERAKENDECİLİK",
+            "sinif": "10/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "PERAKENDECİLİK",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "PERAKENDECİLİK",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MAĞAZA ATMOSFERİ VE GÖRSELLİK",
+            "sinif": "11/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MAĞAZA ATMOSFERİ VE GÖRSELLİK",
+            "sinif": "11/F"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TÜKETİCİ DAVRANIŞLARI",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/F"
+          }
+        ]
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "2": [
+          {
+            "ders": "OFİS UYGULAMALARI",
+            "sinif": "9/F"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [
+          {
+            "ders": "PAZARLAMA İLKELERİ",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "PAZARLAMA İLKELERİ",
+            "sinif": "9/F"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "10/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MESLEKİ MATEMATİK",
+            "sinif": "10/F"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "KLAVYE TEKNİKLERİ",
+            "sinif": "9/E"
+          }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "SATIŞTA İLETİŞİM TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ],
+        "9": [
+          {
+            "ders": "SATIŞTA İLETİŞİM TEKNİKLERİ",
+            "sinif": "10/F"
+          }
+        ]
+      }
+    },
+    "İBRAHİM OĞUZ ULUDAĞ": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/G"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/G"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/A"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [],
+        "8": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/C"
+          }
+        ]
+      },
+      "Salı": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/F"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/F"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/A"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/E"
+          }
+        ]
+      },
+      "Çarşamba": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [],
+        "2": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/F"
+          }
+        ],
+        "3": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/F"
+          }
+        ],
+        "4": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/D"
+          }
+        ],
+        "6": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/C"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TARİH",
+            "sinif": "9/C"
+          }
+        ]
+      },
+      "Cuma": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/D"
+          }
+        ],
+        "5": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/D"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "TARİH",
+            "sinif": "10/B"
+          }
+        ]
+      }
+    },
+    "İSMAHAN KESKİN BARLAK": {
+      "Pazartesi": {
+        "1": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/B"
+          }
+        ],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [
+          {
+            "ders": "MESLEKİ GELİŞİM",
+            "sinif": "9/A"
+          }
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "2": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "3": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "4": [
+          {
+            "ders": "PROGRAMA TEMELLERİ",
+            "sinif": "9/A"
+          }
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "2": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "3": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "SEÇMELİ YAZILIM PROJESİ",
+            "sinif": "11/B"
+          }
+        ],
+        "5": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/B"
+          }
+        ],
+        "6": [
+          {
+            "ders": "SEÇMELİ SOSYAL MEDYA",
+            "sinif": "12/B"
+          }
+        ],
+        "7": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "8": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ],
+        "9": [
+          {
+            "ders": "MOBİL UYGULAMALAR",
+            "sinif": "11/B"
+          }
+        ]
+      }
+    },
+    "İSMAİL GÜMÜŞ": {
+      "Pazartesi": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/G"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/E"
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/A"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/A"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/C"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/C"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/C"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/C"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/C"
+          }
+        ],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/E"
+          }
+        ],
+        "2": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "11/E"
+          }
+        ],
+        "3": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "4": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/B"
+          }
+        ],
+        "5": [],
+        "6": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "7": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "10/F"
+          }
+        ],
+        "8": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/E"
+          }
+        ],
+        "9": [
+          {
+            "ders": "BEDEN EĞİTİMİ / MÜZİK",
+            "sinif": "9/E"
+          }
+        ]
+      }
+    }
+  }
+}

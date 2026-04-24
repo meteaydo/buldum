@@ -1,0 +1,64 @@
+.desk {
+  width: 80px;
+  height: 80px;
+  background-color: var(--card-bg);
+  border: 2px dashed var(--border-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, border-color 0.2s;
+  position: relative;
+}
+
+.desk.has-student {
+  border-style: solid;
+  border-color: transparent; /* Kart kendi sınırını çiziyor */
+  background-color: transparent;
+}
+
+.desk-is-over {
+  background-color: rgba(37, 99, 235, 0.1);
+  border-color: var(--primary-color);
+}
+
+/* Düzenleme modunda boş masalar — sürüklenebilir hedef olduğunu gösterir */
+.desk-empty-droppable {
+  border-color: rgba(16, 185, 129, 0.5);
+  border-style: dashed;
+  background-color: rgba(16, 185, 129, 0.04);
+}
+
+.desk-empty-droppable:hover,
+.desk-empty-droppable.desk-is-over {
+  border-color: #10b981;
+  background-color: rgba(16, 185, 129, 0.12);
+}
+
+.desk-empty-label {
+  font-size: 0.65rem;
+  color: #9ca3af;
+  font-weight: 500;
+  user-select: none;
+}
+
+/* Düzenleme modunda '+' etiketi daha belirgin */
+.desk-empty-droppable .desk-empty-label {
+  font-size: 1.1rem;
+  color: rgba(16, 185, 129, 0.7);
+  font-weight: 700;
+}
+
+/* Düzenleme modundaki boş masa sürüklenebilir — mobilde pan engellemek için touch-action gerekli */
+.desk-empty-droppable {
+  cursor: grab;
+  touch-action: none;
+}
+
+/* Sürükleme sırasında görsel geri bildirim */
+.desk-dragging {
+  opacity: 0.6;
+  border-color: var(--primary-color);
+  border-style: solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

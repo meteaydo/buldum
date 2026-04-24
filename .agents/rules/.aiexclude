@@ -1,0 +1,21 @@
+# Bağımlılıklar ve Build Çıktıları
+node_modules/
+.next/
+out/
+build/
+
+# Paket kilit dosyaları 
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Statik Varlıklar (Görsel ve fontlar yüksek token harcar)
+public/
+
+# Yapılandırma ve Loglar
+.DS_Store
+*.log
+.eslintcache
+
+# Gizli Bilgiler
+.env*

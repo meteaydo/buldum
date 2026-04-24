@@ -1,0 +1,215 @@
+/* ─── Öğretmen Kartı — Spotlight İçi ─── */
+
+/* Öğretmen kartı aksanı (turuncu/amber tonları) */
+.result-type-teacher {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  padding: 6% !important;
+  gap: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  container-type: inline-size;
+}
+
+/* Scrollbar gizleme (taşma olursa) */
+.result-type-teacher::-webkit-scrollbar {
+  display: none;
+}
+.result-type-teacher {
+  scrollbar-width: none;
+}
+
+/* ─── Kart Başlık ─── */
+.teacher-card-header {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  margin-bottom: 4%;
+  flex-shrink: 0;
+}
+
+.teacher-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14cqw;
+  height: 14cqw;
+  min-width: 22px;
+  min-height: 22px;
+  border-radius: 25%;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(217, 119, 6, 0.1));
+  flex-shrink: 0;
+}
+
+.teacher-icon {
+  width: 60%;
+  height: 60%;
+  color: #d97706;
+}
+
+@media (prefers-color-scheme: dark) {
+  .teacher-icon-wrapper {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(217, 119, 6, 0.15));
+  }
+  .teacher-icon {
+    color: #f59e0b;
+  }
+}
+
+.teacher-name {
+  font-size: 10cqw;
+  font-weight: 700;
+  color: var(--text-color);
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Ders Listesi ─── */
+.teacher-schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5cqw;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Her bir ders satırı */
+.teacher-lesson-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5cqw;
+  padding: 1.2cqw 2cqw;
+  border-radius: 4cqw;
+  background-color: rgba(245, 158, 11, 0.05);
+  border-left: 2cqw solid rgba(245, 158, 11, 0.4);
+  transition: background-color 0.2s;
+}
+
+.teacher-lesson-row:hover {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .teacher-lesson-row {
+    background-color: rgba(245, 158, 11, 0.08);
+    border-left-color: rgba(245, 158, 11, 0.5);
+  }
+  .teacher-lesson-row:hover {
+    background-color: rgba(245, 158, 11, 0.14);
+  }
+}
+
+/* Boş ders satırı */
+.teacher-lesson-row.lesson-empty {
+  background-color: transparent;
+  border-left-color: rgba(156, 163, 175, 0.2);
+  border-left-style: dashed;
+  opacity: 0.55;
+}
+
+.teacher-lesson-row.lesson-empty:hover {
+  background-color: rgba(156, 163, 175, 0.05);
+}
+
+/* Boş ders saati numarası — gri tonlar */
+.lesson-period-empty {
+  background: linear-gradient(135deg, #d1d5db, #9ca3af) !important;
+}
+
+/* Boş ders yazısı */
+.lesson-empty-text {
+  font-size: 4.5cqw;
+  font-weight: 500;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Ders saati numarası */
+.lesson-period {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7cqw;
+  height: 7cqw;
+  min-width: 16px;
+  min-height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  font-size: 4.5cqw;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+/* Sınıf bilgisi */
+.lesson-class {
+  font-size: 5.5cqw;
+  font-weight: 800;
+  color: var(--text-color);
+  white-space: nowrap;
+  min-width: 14cqw;
+  letter-spacing: -0.01em;
+}
+
+/* Ders adı */
+.lesson-name {
+  font-size: 4cqw;
+  font-weight: 500;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  gap: 1.5cqw;
+}
+
+.lesson-book-icon {
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lesson-name {
+    color: #9ca3af;
+  }
+}
+
+/* "Bugün ders yok" / "Hafta sonu" mesajı */
+.teacher-no-lesson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3cqw;
+  flex: 1;
+  font-size: 6cqw;
+  font-weight: 600;
+  color: #9ca3af;
+  opacity: 0.7;
+}
+
+/* Gün etiketi */
+.teacher-day-badge {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  font-size: 3.5cqw;
+  font-weight: 600;
+  padding: 1cqw 3cqw;
+  border-radius: 3cqw;
+  background: rgba(245, 158, 11, 0.12);
+  color: #d97706;
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .teacher-day-badge {
+    background: rgba(245, 158, 11, 0.18);
+    color: #f59e0b;
+  }
+}

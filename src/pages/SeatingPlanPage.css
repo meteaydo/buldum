@@ -1,0 +1,270 @@
+.seating-plan-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Tam ekran yüksekliği */
+  overflow: hidden;
+}
+
+/* ─── Üst Menü (Sabit) ─── */
+.seating-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.75rem;
+  background-color: var(--card-bg);
+  border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
+  z-index: 50;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0; /* Taşma koruması */
+}
+
+.class-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+/* ─── Zoom Kontrolleri (Üst) ─── */
+.zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background-color: var(--border-color);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.zoom-controls .btn-icon {
+  padding: 0.3rem;
+}
+
+.zoom-level {
+  font-size: 0.7rem;
+  font-weight: 600;
+  min-width: 36px;
+  text-align: center;
+  color: var(--text-color);
+  user-select: none;
+}
+
+/* ─── Kaydet Butonu (Mobil Uyum) ─── */
+.header-right .btn-primary {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+/* ─── Zoom Viewport (Orta Alan) ─── */
+.zoom-viewport {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  touch-action: none;
+  user-select: none;
+}
+
+.zoom-content {
+  width: max-content;
+  min-width: 100%;
+  will-change: transform;
+}
+
+/* ─── Sınıf İçeriği ─── */
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  width: max-content;
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.classroom-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.desk-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.desk-pair {
+  display: flex;
+  gap: 0;
+  flex-shrink: 0;
+}
+
+/* Sınıfın Ön Tarafı */
+.class-front-area {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin-top: 2rem;
+}
+
+.smart-board {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 24px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.7rem;
+  z-index: 10;
+  transition: border-color 0.2s;
+}
+
+.teacher-desk {
+  position: absolute;
+  right: 2rem;
+  width: 100px;
+  height: 36px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.7rem;
+  z-index: 10;
+  transition: border-color 0.2s;
+}
+
+.draggable-item {
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.draggable-item:active {
+  cursor: grabbing;
+  opacity: 0.8;
+  border-color: var(--primary-color);
+}
+
+/* ─── Alt Araç Çubuğu (Sabit) ─── */
+.bottom-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  background-color: var(--card-bg);
+  border-top: 1px solid var(--border-color);
+  flex-shrink: 0;
+  z-index: 50;
+}
+
+/* ─── Segmented Toggle (Kaydır / Düzenle) ─── */
+.segmented-toggle {
+  display: flex;
+  border-radius: 8px;
+  background-color: var(--border-color);
+  padding: 2px;
+  gap: 2px;
+}
+
+.segment {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #6b7280;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.segment.active {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* ─── Mobil Öncelikli Medya Sorguları ─── */
+@media (max-width: 480px) {
+  .seating-header {
+    padding: 0.35rem 0.5rem;
+  }
+  .class-title {
+    font-size: 0.85rem;
+    max-width: 100px;
+  }
+  .desk-row {
+    gap: 1rem;
+  }
+  .zoom-level {
+    font-size: 0.65rem;
+    min-width: 30px;
+  }
+  .segment {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 481px) {
+  .desk-row {
+    gap: 1.5rem;
+  }
+}
+
+/* ─── Toast Uyarı (Drag Hint) ─── */
+.drag-hint-toast {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.4); /* Daha şeffaf (eskiden %70) */
+  color: #fff;
+  padding: 8px 16px; /* Daha dar */
+  border-radius: 12px;
+  font-size: 0.75rem; /* Daha küçük font */
+  white-space: nowrap; /* Mümkün olduğunca yatayda yayıl, alt satıra geçme */
+  pointer-events: none;
+  z-index: 9999;
+  letter-spacing: 0.3px;
+  animation: toastFade 3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes toastFade {
+  0% { opacity: 0; transform: translate(-50%, 15px); }
+  10% { opacity: 1; transform: translate(-50%, 0); }
+  90% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -10px); }
+}
+
+

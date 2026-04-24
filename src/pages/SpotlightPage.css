@@ -1,0 +1,502 @@
+.spotlight-layout {
+  /* dvh (dynamic viewport height) mobilde klavye açıldığında da görünür alanla sınırlanır */
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  min-height: 52px;
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-container {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 100;
+  /* Performans ve kaymayı önlemek için sadece transform animasyonu kullanıyoruz */
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: top left;
+  will-change: transform;
+}
+
+.header-logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-top-left {
+  transform: translate(0, 0) scale(1);
+}
+
+.logo-center {
+  /* Matematiksel merkezleme:
+     Sol üstten (1rem, 0.5rem) başlayıp,
+     X: 50vw - 1rem(başlangıç payı) - %100(kendi genişliği, çünkü scale(2) olunca merkeze %100 kayması gerekir)
+     Y: 40dvh - 0.5rem - %100 
+  */
+  transform: translate(calc(50vw - 1rem - 100%), calc(40dvh - 0.5rem - 100%)) scale(2);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-icon:hover {
+  background-color: var(--border-color);
+}
+
+.spotlight-main {
+  flex: 1;
+  /* min-height: 0 olmadan flex çocuk içeriğinden küçülemez, yükseklik hesabı bozulur */
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem 1rem 1rem;
+  overflow: hidden;
+}
+
+/* ─── Dinamik Sonuç Alanı (Üst Kısım) ─── */
+/* grid-template-columns ve gap değerleri JS (computeOptimalLayout) tarafından inline style olarak iletilir */
+.dynamic-results-area {
+  flex: 1;
+  /* min-height: 0 kritik: flex item varsayılan olarak auto min-height'a sahiptir,
+     bu olmadan eleman içerik yüksekliğindne küçülemez ve clientHeight hesabı bozulur */
+  min-height: 0;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.dynamic-result-card {
+  /* Boyut (width/height) JS tarafından px cinsinden hesaplanıp inline style olarak verilir */
+  min-width: 0;
+  min-height: 0;
+  container-type: inline-size; /* cqw birimleri için */
+
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 8%; /* cqw viewport'u algıladığı için kırılıyordu, % kendi boyutuna göredir */
+  padding: 4%; /* Kendi içindeki alana göre dinamik iç boşluk */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Varsayılan merkez */
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.dynamic-result-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.12);
+}
+
+.dynamic-result-card .result-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  background-color: rgba(37, 99, 235, 0.08);
+  border-radius: 12%; /* İkonun kendi karesine göre orantılı köşe yuvarlaması */
+  margin-bottom: 0.8cqw;
+  width: 70cqw; /* Dengeli boyut */
+  height: 70cqw;
+  align-self: center;
+  transition: all 0.4s ease;
+  flex-shrink: 0;
+}
+
+.dynamic-result-card .result-icon svg {
+  width: 45%;
+  height: 45%;
+}
+
+.dynamic-result-card .result-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0; /* Boşlukları kesin olarak sıfırla */
+}
+
+.result-title-line, .result-subtitle-line {
+  width: 100%;
+  text-align: center;
+  line-height: 1; /* Normal yerine 1 yapılarak gereksiz iç boşluklar alındı */
+}
+
+.dynamic-result-card .result-title {
+  display: inline-block;
+  max-width: 100%;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 11cqw;
+  line-height: 1; /* Alt kısmındaki görünmez satır boşluğu kapatıldı */
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "..";
+  text-align: left;
+  margin-bottom: 0; /* Margin tamamen sıfırlandı */
+}
+
+.dynamic-result-card .result-subtitle {
+  display: inline-block;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 11cqw; /* İsimle (title) aynı boyuta (11cqw) getirildi */
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "..";
+  text-align: left;
+  margin-top: -0.5cqw; /* Görsel olarak çok az birbirine yaklaştırıldı */
+}
+
+.student-subtitle {
+  display: flex; /* İçerideki öğeler (9A ve No) için flex devam edebilir */
+  align-items: center;
+  justify-content: center;
+  gap: 1cqw;
+}
+
+.subtitle-class, .subtitle-no {
+  color: var(--text-color); /* Yazı tipleri aynı (renk ve tip olarak) */
+  font-weight: 500;
+}
+
+.subtitle-divider {
+  opacity: 0.3;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dynamic-result-card .result-subtitle,
+  .subtitle-class,
+  .subtitle-no {
+    color: #e5e7eb;
+  }
+}
+
+.no-results {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: #9ca3af;
+  font-weight: 600;
+  padding: 1rem;
+  background: none;
+  border: none;
+}
+
+.no-results span {
+  display: inline-block;
+  animation: letterWave 0.3s ease-out 1 forwards;
+}
+
+@keyframes letterWave {
+  0%, 100% { 
+    transform: translateY(0) scale(1); 
+    color: #9ca3af; 
+  }
+  50% { 
+    transform: translateY(-8px) scale(1.2); 
+    color: var(--primary-color); 
+  }
+}
+
+/* ─── Arama Bölümü (Alt Kısım) ─── */
+.search-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 1.5rem; /* Sonuçlar ile kutu arasına boşluk */
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 24px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.search-input-wrapper:focus-within {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.15), 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1.25rem 1.25rem 1.25rem 60px;
+  font-size: 1.25rem;
+  border: none;
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+/* ─── Excel Import ─── */
+.btn-import {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-import:hover {
+  background: rgba(37, 99, 235, 0.08);
+  transform: translateY(-1px);
+}
+
+.btn-import:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.import-status-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.import-status-loading {
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--primary-color);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.import-status-success {
+  background: rgba(16, 185, 129, 0.08);
+  color: #059669;
+  border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.import-status-error {
+  background: rgba(239, 68, 68, 0.08);
+  color: #dc2626;
+  border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.import-status-close {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.6;
+  line-height: 1;
+  padding: 0 0.25rem;
+}
+
+.import-status-close:hover {
+  opacity: 1;
+}
+
+.student-count-hint {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Sınıf kartı aksanı */
+.result-type-class .result-icon {
+  background-color: rgba(139, 92, 246, 0.1);
+  color: #7c3aed;
+}
+
+.result-type-student .result-icon {
+  overflow: hidden;
+}
+
+/* Dönen ikon animasyonu */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-icon {
+  animation: spin 1s linear infinite;
+}
+
+.dynamic-result-card.is-zoomed {
+  z-index: 1000 !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6) !important;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: var(--card-bg) !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+}
+
+.btn-zoom-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  background-color: rgba(239, 68, 68, 0.85);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  /* aspect-ratio: 1 ile genişlik/yükseklik oranı her zaman 1:1 (daire) kalır.
+     Kart dikdörtgen olduğunda % değerleri farklı piksel üretirdi → oval görünüm */
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1;
+  min-width: 24px;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1001;
+  padding: 0;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.btn-zoom-close:hover {
+  background-color: rgba(239, 68, 68, 1);
+}
+
+.zoom-close-icon {
+  width: 60%;
+  height: 60%;
+}
+
+.card-zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease;
+}
+
+.is-zoomed-center {
+  width: 60vw !important;
+  height: 60vw !important;
+  max-width: 350px !important;
+  max-height: 350px !important;
+  position: relative !important;
+  transform: none !important;
+  cursor: default !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6) !important;
+}
+
+@media (max-width: 768px) {
+  .is-zoomed-center {
+    width: 85vw !important;
+    height: 85vw !important;
+  }
+}
+
+/* ─── Öğretmen Zoom Kartı ─── */
+/* Öğretmen kartı kare yerine dikdörtgen — ders listesi dikey olduğu için */
+/* overflow: visible olmalı; aksi hâlde btn-zoom-close translate ile kart dışına çıkamaz */
+.teacher-zoom-card {
+  width: 85vw !important;
+  max-width: 380px !important;
+  height: auto !important;
+  max-height: 85vh !important;
+  position: relative !important;
+  transform: none !important;
+  cursor: default !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6) !important;
+  background-color: var(--card-bg) !important;
+  border: 2px solid var(--border-color) !important;
+  border-radius: 16px !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+
+/* Zoom kartı içindeki TeacherCard — içerik kırpması buraya taşındı */
+.teacher-zoom-card .result-type-teacher {
+  width: 100% !important;
+  height: auto !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  container-type: inline-size;
+}
+
+/* Çarpı butonu (sağ üst köşe) ile çakışmayı önlemek için gün etiketini sola kaydır */
+.teacher-zoom-card .teacher-day-badge {
+  right: 10% !important;
+}
+
