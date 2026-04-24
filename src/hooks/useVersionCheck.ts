@@ -16,7 +16,9 @@ export const useVersionCheck = () => {
       
       if (!response.ok) return;
 
-      const latestVersion = (await response.text()).trim();
+      const text = await response.text();
+      const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+      const latestVersion = lines.length > 0 ? lines[lines.length - 1] : '';
       const currentVersion = localStorage.getItem(STORAGE_KEY);
 
       if (!currentVersion) {
