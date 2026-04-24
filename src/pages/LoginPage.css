@@ -1,0 +1,355 @@
+/* ─── Login Sayfası — Premium Glassmorphism Tasarım ─── */
+
+.login-layout {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+
+  /* Animasyonlu gradient arka plan */
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+/* Dekoratif arka plan daireleri */
+.login-layout::before,
+.login-layout::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.login-layout::before {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+  animation: floatBlob 8s ease-in-out infinite alternate;
+}
+
+.login-layout::after {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, #8b5cf6 0%, transparent 70%);
+  bottom: -80px;
+  left: -80px;
+  animation: floatBlob 10s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes floatBlob {
+  from { transform: translate(0, 0) scale(1); }
+  to { transform: translate(30px, -20px) scale(1.15); }
+}
+
+/* ─── Ana Kart ─── */
+.login-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  animation: cardSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #e2e8f0;
+}
+
+@keyframes cardSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ─── Logo ─── */
+.login-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(59, 130, 246, 0.3));
+  animation: logoPulse 3s ease-in-out infinite;
+}
+
+@keyframes logoPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.login-subtitle {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  text-align: center;
+  margin: -0.5rem 0 0 0;
+  line-height: 1.4;
+}
+
+/* ─── Google Giriş Butonu ─── */
+.btn-google {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.5rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: #f1f5f9;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-google:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.btn-google:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-google:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.google-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* ─── Kod Doğrulama Aşaması ─── */
+.code-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  animation: cardSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(59, 130, 246, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.user-avatar-placeholder {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #60a5fa;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.user-email {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.code-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* ─── PIN Input ─── */
+.pin-input-group {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.pin-digit {
+  width: 44px;
+  height: 54px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f1f5f9;
+  outline: none;
+  transition: all 0.2s;
+  caret-color: #3b82f6;
+}
+
+.pin-digit:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.pin-digit.filled {
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(59, 130, 246, 0.06);
+}
+
+/* Hatalı kod shake animasyonu */
+.pin-input-group.shake {
+  animation: shakeError 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@keyframes shakeError {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-6px); }
+  40%, 60% { transform: translateX(6px); }
+}
+
+.pin-digit.error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.08);
+}
+
+/* ─── Doğrulama Butonu ─── */
+.btn-verify {
+  width: 100%;
+  padding: 0.875rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  transition: all 0.25s;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.btn-verify:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+.btn-verify:active:not(:disabled) {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-verify:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ─── Hata Mesajı ─── */
+.code-error {
+  font-size: 0.85rem;
+  color: #f87171;
+  text-align: center;
+  animation: fadeInError 0.3s ease;
+  min-height: 1.2em;
+}
+
+@keyframes fadeInError {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Farklı Hesap Linki ─── */
+.btn-switch-account {
+  font-size: 0.8rem;
+  color: #64748b;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+
+.btn-switch-account:hover {
+  color: #94a3b8;
+  text-decoration: underline;
+}
+
+/* ─── Yükleniyor ─── */
+.login-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+  }
+
+  .pin-digit {
+    width: 40px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+
+  .login-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .login-title {
+    font-size: 1.25rem;
+  }
+}

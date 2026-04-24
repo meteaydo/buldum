@@ -1,0 +1,445 @@
+/* ─── Admin Paneli Stilleri ─── */
+
+.admin-layout {
+  min-height: 100dvh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Üst Başlık ─── */
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+}
+
+.admin-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.admin-back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.admin-back-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+.admin-header h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #f1f5f9;
+}
+
+.admin-stats {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.stat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.stat-dot.assigned {
+  background: #22c55e;
+}
+
+.stat-dot.available {
+  background: #64748b;
+}
+
+/* ─── Ana İçerik ─── */
+.admin-content {
+  flex: 1;
+  padding: 1rem 1.5rem 2rem;
+  overflow-y: auto;
+}
+
+/* ─── Filtre Çubuğu ─── */
+.admin-filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: #94a3b8;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.filter-btn.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.3);
+  color: #60a5fa;
+}
+
+/* ─── Seed Butonu ─── */
+.btn-seed {
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: rgba(139, 92, 246, 0.12);
+  color: #a78bfa;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-left: auto;
+}
+
+.btn-seed:hover {
+  background: rgba(139, 92, 246, 0.2);
+}
+
+.btn-seed:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ─── Kod Tablosu ─── */
+.codes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.code-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.2s;
+}
+
+.code-row:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.code-value {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #f1f5f9;
+  min-width: 90px;
+}
+
+.code-email {
+  flex: 1;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.code-email.empty {
+  color: #475569;
+  font-style: italic;
+}
+
+.code-status {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.code-status.assigned {
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+}
+
+.code-status.available {
+  background: rgba(100, 116, 139, 0.12);
+  color: #94a3b8;
+}
+
+.code-action-btn {
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.code-action-btn.assign {
+  background: rgba(59, 130, 246, 0.12);
+  color: #60a5fa;
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+.code-action-btn.assign:hover {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+.code-action-btn.revoke {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border-color: rgba(239, 68, 68, 0.2);
+}
+
+.code-action-btn.revoke:hover {
+  background: rgba(239, 68, 68, 0.18);
+}
+
+/* ─── Email Atama Dialog ─── */
+.assign-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.assign-dialog {
+  width: 90%;
+  max-width: 400px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: rgba(30, 41, 59, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: cardSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes cardSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.assign-dialog h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.assign-dialog-code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #60a5fa;
+  letter-spacing: 0.2em;
+  padding: 0.5rem;
+  background: rgba(59, 130, 246, 0.08);
+  border-radius: 10px;
+}
+
+.assign-email-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.assign-email-input:focus {
+  border-color: #3b82f6;
+}
+
+.assign-email-input::placeholder {
+  color: #475569;
+}
+
+.assign-dialog-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.assign-dialog-actions button {
+  padding: 0.5rem 1.25rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-dialog-cancel {
+  background: rgba(255, 255, 255, 0.06);
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-dialog-cancel:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-dialog-confirm {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+.btn-dialog-confirm:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.35);
+}
+
+.btn-dialog-confirm:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ─── Yükleniyor ─── */
+.admin-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: #64748b;
+  gap: 0.75rem;
+}
+
+.admin-loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+/* ─── Boş durum ─── */
+.admin-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem;
+  text-align: center;
+  color: #64748b;
+}
+
+.admin-empty p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* ─── Toast ─── */
+.admin-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: #4ade80;
+  font-size: 0.85rem;
+  font-weight: 600;
+  z-index: 9999;
+  animation: toastIn 0.3s ease;
+}
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 600px) {
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .admin-content {
+    padding: 0.75rem 1rem 2rem;
+  }
+
+  .code-row {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.6rem 0.75rem;
+  }
+
+  .code-value {
+    min-width: auto;
+  }
+
+  .code-email {
+    width: 100%;
+    order: 3;
+  }
+
+  .admin-stats {
+    width: 100%;
+  }
+}

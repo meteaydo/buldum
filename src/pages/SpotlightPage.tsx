@@ -6,11 +6,15 @@ import {
   LayoutGrid,
   X,
   Delete,
+  LogOut,
+  Shield,
 } from 'lucide-react';
 import { useStudentStore } from '../store/studentStore';
 import { useTeacherStore } from '../store/teacherStore';
 import type { DaySchedule } from '../store/teacherStore';
 import type { StudentInfo } from '../store/classStore';
+import { useAuthStore } from '../store/authStore';
+import { signOutUser } from '../services/authService';
 import StudentCard from '../components/StudentCard';
 import TeacherCard from '../components/TeacherCard';
 import VirtualKeyboard from '../components/VirtualKeyboard';
@@ -80,9 +84,20 @@ export default function SpotlightPage() {
   const navigate = useNavigate();
   const { allStudents, classNames } = useStudentStore();
   const { teacherNames, scheduleData } = useTeacherStore();
+  const { isAdmin, clearAuth } = useAuthStore();
   const { deferredPrompt, promptInstall, isIOS, isStandalone } = useInstallPrompt();
 
   const showInstallBanner = query.trim().length === 0 && (deferredPrompt || (isIOS && !isStandalone));
+
+  /** Oturumu kapat ve auth state'i temizle */
+  const handleSignOut = async () => {
+    try {
+      await signOutUser();
+      clearAuth();
+    } catch (err) {
+      console.error('Çıkış hatası:', err);
+    }
+  };
 
   /** Store verileri + arama sorgusuyla filtrelenmiş sonuçlar */
   useEffect(() => {
@@ -288,9 +303,20 @@ export default function SpotlightPage() {
         <img src="/elephentlogo.png" alt="Logo" className="header-logo-img" />
       </div>
 
-      {/* Üst Menü */}
+      {/* Üst Menü — Auth butonları */}
       <header className="header">
         {/* Logo artık absolute olarak spotlight-layout içinde yönetiliyor */}
+        <div style={{ marginLeft: 'auto' }} />
+        <div className="auth-section">
+          {isAdmin && (
+            <button className="btn-icon" onClick={() => navigate('/admin')} title="Admin Paneli">
+              <Shield size={18} />
+            </button>
+          )}
+          <button className="btn-icon" onClick={handleSignOut} title="Çıkış Yap">
+            <LogOut size={18} />
+          </button>
+        </div>
       </header>
 
       {/* Spotlight Alanı */}

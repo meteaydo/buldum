@@ -37,6 +37,10 @@ export default defineConfig({
         ]
       },
       workbox: {
+        // Yeni SW indirildiğinde eski SW'yi beklemeden hemen devreye al
+        // Bu sayede auth güncellemesi kullanıcıya anında ulaşır
+        skipWaiting: true,
+        clientsClaim: true,
         // Önceden cache'lenecek dosya limitleri (Excel gibi dosyalar IndexedDB'de tutulacak, PWA sadece core app dosyalarını cache'lesin)
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024
       }
