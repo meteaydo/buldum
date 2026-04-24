@@ -10,9 +10,9 @@ interface VirtualKeyboardProps {
 
 const ROWS = [
   ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
-  ['q', 'w', 'e', 'r', 't', 'y', 'u', 'ı', 'o', 'p', 'ğ', 'ü'],
-  ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'ş', 'i'],
-  ['z', 'x', 'c', 'v', 'b', 'n', 'm', 'ö', 'ç'],
+  ['q', 'e', 'r', 't', 'y', 'u', 'ı', 'o', 'p'],
+  ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'i'],
+  ['z', 'x', 'c', 'v', 'b', 'n', 'm'],
 ];
 
 export default function VirtualKeyboard({ onKeyPress, onBackspace, onClose, isVisible }: VirtualKeyboardProps) {
@@ -29,7 +29,7 @@ export default function VirtualKeyboard({ onKeyPress, onBackspace, onClose, isVi
           {row.map((key) => (
             <button 
               key={key} 
-              className="vk-key" 
+              className="vk-key"
               onClick={(e) => {
                 e.preventDefault();
                 onKeyPress(key);

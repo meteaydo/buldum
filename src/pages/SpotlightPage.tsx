@@ -15,6 +15,7 @@ import StudentCard from '../components/StudentCard';
 import TeacherCard from '../components/TeacherCard';
 import VirtualKeyboard from '../components/VirtualKeyboard';
 import type { ZoomedTeacherData } from '../components/TeacherCard';
+import { useInstallPrompt } from '../hooks/useInstallPrompt';
 import './SpotlightPage.css';
 
 /** Mevcut konteyner boyutuna ve sonuç sayısına göre
@@ -79,6 +80,9 @@ export default function SpotlightPage() {
   const navigate = useNavigate();
   const { allStudents, classNames } = useStudentStore();
   const { teacherNames, scheduleData } = useTeacherStore();
+  const { deferredPrompt, promptInstall, isIOS, isStandalone } = useInstallPrompt();
+
+  const showInstallBanner = query.trim().length === 0 && (deferredPrompt || (isIOS && !isStandalone));
 
   /** Store verileri + arama sorgusuyla filtrelenmiş sonuçlar */
   useEffect(() => {
@@ -95,7 +99,9 @@ export default function SpotlightPage() {
         .replace(/ş/g, 's')
         .replace(/ı/g, 'i')
         .replace(/ö/g, 'o')
-        .replace(/ç/g, 'c');
+        .replace(/ç/g, 'c')
+        .replace(/q/g, 'k')
+        .replace(/w/g, 'v');
     };
 
     const searchKey = normalizeForSearch(query.trim());
@@ -257,6 +263,26 @@ export default function SpotlightPage() {
 
   return (
     <div className="spotlight-layout">
+      {/* PWA Yükleme Banner'ı */}
+      {showInstallBanner && (
+        <div className="install-prompt-banner">
+          <img src="/elephentlogo.png" alt="Logo" className="install-logo-small" />
+          <div className="install-text-col">
+            <h4>BulGetir'i İndir</h4>
+            {isIOS && !deferredPrompt ? (
+              <p>Alt menüden <span style={{fontWeight: 600}}>Paylaş</span>'a ve ardından <span style={{fontWeight: 600}}>Ana Ekrana Ekle</span>'ye dokunun</p>
+            ) : (
+              <p>Hızlı erişim için ana ekrana ekle</p>
+            )}
+          </div>
+          {deferredPrompt && (
+            <button onClick={promptInstall} className="btn-install">
+              Ekle
+            </button>
+          )}
+        </div>
+      )}
+
       {/* Bağımsız Logo (Animasyonlu) */}
       <div className={`logo-container ${query.trim().length > 0 ? 'logo-top-left' : 'logo-center'}`}>
         <img src="/elephentlogo.png" alt="Logo" className="header-logo-img" />

@@ -26,8 +26,8 @@
 }
 
 .vk-key {
-  /* Eşit ve sabit genişlik: Tam 12 tuş alacak şekilde */
-  width: calc((100% - 44px) / 12);
+  /* Eşit ve sabit genişlik: Tam 10 tuş alacak şekilde güncellendi */
+  width: calc((100% - 36px) / 10);
   flex-shrink: 0;
   background-color: #ffffff;
   border: none;
