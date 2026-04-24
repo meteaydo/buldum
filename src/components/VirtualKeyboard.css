@@ -1,0 +1,86 @@
+.virtual-keyboard-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: var(--card-bg);
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-top: 8px;
+  border: 1px solid var(--border-color);
+  animation: slideUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.vk-row {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.vk-key {
+  flex: 1;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1.35rem; /* Harflerin kolay görünmesi için büyük */
+  font-weight: 500;
+  height: 44px; /* Baş parmak dostu minimum yükseklik */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.1s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .vk-key {
+    background-color: #374151; /* Koyu temada tuşlar belirgin olsun */
+    border-color: #4b5563;
+  }
+}
+
+.vk-key:active {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(0.95);
+}
+
+.vk-space {
+  flex: 3;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.vk-backspace {
+  flex: 1.5;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .vk-backspace {
+    background-color: rgba(239, 68, 68, 0.2);
+  }
+}
+
+.vk-backspace:active {
+  background-color: #ef4444;
+  color: white;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 769px) {
+  .virtual-keyboard-container {
+    display: none !important;
+  }
+}

@@ -5,6 +5,7 @@ import {
   Search,
   LayoutGrid,
   X,
+  Delete,
 } from 'lucide-react';
 import { useStudentStore } from '../store/studentStore';
 import { useTeacherStore } from '../store/teacherStore';
@@ -12,6 +13,7 @@ import type { DaySchedule } from '../store/teacherStore';
 import type { StudentInfo } from '../store/classStore';
 import StudentCard from '../components/StudentCard';
 import TeacherCard from '../components/TeacherCard';
+import VirtualKeyboard from '../components/VirtualKeyboard';
 import type { ZoomedTeacherData } from '../components/TeacherCard';
 import './SpotlightPage.css';
 
@@ -72,6 +74,7 @@ export default function SpotlightPage() {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const resultsAreaRef = useRef<HTMLDivElement>(null);
   const GAP_PX = 16;
+  const isTouchDevice = typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0);
 
   const navigate = useNavigate();
   const { allStudents, classNames } = useStudentStore();
@@ -242,6 +245,14 @@ export default function SpotlightPage() {
     setZoomedTeacher(prev => prev?.name === data.name ? null : data);
   };
 
+  const handleVirtualKeyPress = (key: string) => {
+    setQuery(prev => prev + key);
+  };
+  
+  const handleVirtualBackspace = () => {
+    setQuery(prev => prev.slice(0, -1));
+  };
+
 
 
   return (
@@ -349,16 +360,38 @@ export default function SpotlightPage() {
               onFocus={() => setIsFocused(true)}
               placeholder="Kişi ya da sınıf arayın..."
               className="search-input"
+              inputMode={isTouchDevice ? "none" : "text"}
               autoFocus
             />
+            {query.length > 0 && (
+              <button
+                className="input-backspace-btn"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleVirtualBackspace();
+                }}
+                type="button"
+              >
+                <Delete size={20} />
+              </button>
+            )}
           </div>
-          {(allStudents.length > 0 || teacherNames.length > 0) && (
-            <p className="student-count-hint">
-              {allStudents.length} öğrenci · {classNames.length} sınıf · {teacherNames.length} öğretmen yüklü
-            </p>
-          )}
-          <div className="app-version-hint">
-            v{localStorage.getItem('app_version') || '1.0.0'}
+          
+          <VirtualKeyboard 
+            isVisible={isFocused} 
+            onKeyPress={handleVirtualKeyPress}
+            onBackspace={handleVirtualBackspace}
+          />
+
+          <div className="bottom-info-row">
+            {(allStudents.length > 0 || teacherNames.length > 0) && (
+              <span className="student-count-hint">
+                {allStudents.length} öğrenci · {classNames.length} sınıf · {teacherNames.length} öğretmen
+              </span>
+            )}
+            <span className="app-version-hint">
+              v{localStorage.getItem('app_version') || '1.0.0'}
+            </span>
           </div>
         </div>
       </main>

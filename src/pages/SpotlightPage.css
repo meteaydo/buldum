@@ -79,7 +79,7 @@
   min-height: 0;
   display: flex;
   flex-direction: column;
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 0.25rem 1rem;
   overflow: hidden;
 }
 
@@ -280,13 +280,39 @@
 
 .search-input {
   width: 100%;
-  padding: 1.25rem 1.25rem 1.25rem 60px;
+  padding: 1.25rem 3.5rem 1.25rem 60px;
   font-size: 1.25rem;
   border: none;
   background: transparent;
   color: var(--text-color);
   border-radius: 20px;
   outline: none;
+}
+
+.input-backspace-btn {
+  position: absolute;
+  right: 16px;
+  background: none;
+  border: none;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.2s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.input-backspace-btn:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.input-backspace-btn:active {
+  background-color: rgba(239, 68, 68, 0.2);
+  transform: scale(0.9);
 }
 
 .search-input::placeholder {
@@ -365,19 +391,30 @@
   opacity: 1;
 }
 
+.bottom-info-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
 .student-count-hint {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   color: #9ca3af;
-  margin-top: 0.5rem;
-  text-align: center;
+  margin: 0;
 }
 
 .app-version-hint {
   font-size: 0.65rem;
   color: #d1d5db;
-  margin-top: 0.25rem;
-  text-align: center;
   opacity: 0.8;
+  margin: 0;
+  padding-left: 8px;
+  border-left: 1px solid rgba(156, 163, 175, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
