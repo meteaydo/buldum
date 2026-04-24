@@ -1,9 +1,10 @@
 import './VirtualKeyboard.css';
-import { Delete } from 'lucide-react';
+import { Delete, Keyboard, ChevronDown } from 'lucide-react';
 
 interface VirtualKeyboardProps {
   onKeyPress: (key: string) => void;
   onBackspace: () => void;
+  onClose: () => void;
   isVisible: boolean;
 }
 
@@ -14,17 +15,17 @@ const ROWS = [
   ['z', 'x', 'c', 'v', 'b', 'n', 'm', 'ö', 'ç'],
 ];
 
-export default function VirtualKeyboard({ onKeyPress, onBackspace, isVisible }: VirtualKeyboardProps) {
+export default function VirtualKeyboard({ onKeyPress, onBackspace, onClose, isVisible }: VirtualKeyboardProps) {
   if (!isVisible) return null;
 
   return (
     <div 
       className="virtual-keyboard-container" 
       onMouseDown={(e) => e.preventDefault()} 
-      onTouchStart={(e) => e.preventDefault()}
     >
       {ROWS.map((row, rowIndex) => (
         <div key={rowIndex} className="vk-row">
+          {rowIndex === 3 && <div className="vk-spacer" style={{ flexGrow: 0.2 }} />}
           {row.map((key) => (
             <button 
               key={key} 
@@ -38,9 +39,22 @@ export default function VirtualKeyboard({ onKeyPress, onBackspace, isVisible }: 
               {key}
             </button>
           ))}
+          {rowIndex === 3 && (
+            <button 
+              className="vk-key vk-backspace" 
+              onClick={(e) => {
+                e.preventDefault();
+                onBackspace();
+              }}
+              type="button"
+            >
+              <Delete size={22} />
+            </button>
+          )}
         </div>
       ))}
-      <div className="vk-row">
+      <div className="vk-row vk-bottom-row">
+        <div className="vk-spacer" />
         <button 
           className="vk-key vk-space" 
           onClick={(e) => {
@@ -52,14 +66,17 @@ export default function VirtualKeyboard({ onKeyPress, onBackspace, isVisible }: 
           boşluk
         </button>
         <button 
-          className="vk-key vk-backspace" 
+          className="vk-key vk-hide-btn" 
           onClick={(e) => {
             e.preventDefault();
-            onBackspace();
+            onClose();
           }}
           type="button"
         >
-          <Delete size={22} />
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '-2px' }}>
+            <Keyboard size={18} />
+            <ChevronDown size={14} style={{ marginTop: '-4px' }} />
+          </div>
         </button>
       </div>
     </div>

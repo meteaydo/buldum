@@ -381,6 +381,13 @@ export default function SpotlightPage() {
             isVisible={isFocused} 
             onKeyPress={handleVirtualKeyPress}
             onBackspace={handleVirtualBackspace}
+            onClose={() => {
+              setIsFocused(false);
+              // Input'tan focus'u çek ki cursor kaybolsun
+              if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+              }
+            }}
           />
 
           <div className="bottom-info-row">
