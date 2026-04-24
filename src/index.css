@@ -70,3 +70,54 @@ button {
   box-shadow: var(--shadow);
   padding: 1.5rem;
 }
+
+/* ─── Resim Koruma Stilleri ─── */
+
+/* Tüm resimlerde seçim ve uzun basma engelleme */
+.student-photo img,
+.card-zoom-overlay img,
+.protected-image img {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS uzun basma menüsünü engeller */
+  -webkit-user-drag: none;
+  pointer-events: none; /* Resimlere doğrudan tıklama/kaydetmeyi engeller */
+}
+
+/* Resim konteynerinin üzerine şeffaf overlay — "Resmi Farklı Kaydet" i engeller */
+.student-photo,
+.card-zoom-overlay .student-photo {
+  position: relative;
+  -webkit-touch-callout: none;
+}
+
+.student-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* Tıklamaları yakalar, alttaki resme ulaşmayı engeller */
+}
+
+/* Ekran görüntüsü algılandığında resimler bulanıklaşır */
+.image-protection-blur .student-photo img,
+.image-protection-blur .card-zoom-overlay img {
+  filter: blur(30px) brightness(0.5);
+  transition: filter 0.15s ease;
+}
+
+/* Yazdırma sırasında resimleri gizle */
+@media print {
+  .student-photo img,
+  .card-zoom-overlay img {
+    visibility: hidden !important;
+  }
+  .student-photo::after {
+    content: '🔒';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: var(--border-color);
+  }
+}

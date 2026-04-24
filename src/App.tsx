@@ -9,9 +9,21 @@ import { useStudentStore } from './store/studentStore';
 import { useTeacherStore } from './store/teacherStore';
 import UpdateOverlay from './components/UpdateOverlay';
 import { useVersionCheck } from './hooks/useVersionCheck';
+import { useImageProtection } from './hooks/useImageProtection';
 
 function App() {
   const { isUpdating } = useVersionCheck();
+  const { isBlurred } = useImageProtection();
+
+  // Ekran görüntüsü algılandığında resimleri bulanıklaştır
+  useEffect(() => {
+    if (isBlurred) {
+      document.body.classList.add('image-protection-blur');
+    } else {
+      document.body.classList.remove('image-protection-blur');
+    }
+    return () => document.body.classList.remove('image-protection-blur');
+  }, [isBlurred]);
   const [syncState, setSyncState] = useState({ isSyncing: false, message: 'Sunucu ile bağlantı kuruluyor...' });
   const { allStudents, hasHydrated } = useStudentStore();
   const teacherHydrated = useTeacherStore((s) => s.hasHydrated);
