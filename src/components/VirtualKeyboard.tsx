@@ -1,4 +1,3 @@
-import React from 'react';
 import './VirtualKeyboard.css';
 import { Delete } from 'lucide-react';
 
