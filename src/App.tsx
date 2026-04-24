@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SpotlightPage from './pages/SpotlightPage';
 import SeatingPlanPage from './pages/SeatingPlanPage';
@@ -7,8 +7,11 @@ import { syncExcelFiles } from './services/excelSyncService';
 import { syncTeacherSchedule } from './services/teacherSyncService';
 import { useStudentStore } from './store/studentStore';
 import { useTeacherStore } from './store/teacherStore';
+import UpdateOverlay from './components/UpdateOverlay';
+import { useVersionCheck } from './hooks/useVersionCheck';
 
 function App() {
+  const { isUpdating } = useVersionCheck();
   const [syncState, setSyncState] = useState({ isSyncing: false, message: 'Sunucu ile bağlantı kuruluyor...' });
   const { allStudents, hasHydrated } = useStudentStore();
   const teacherHydrated = useTeacherStore((s) => s.hasHydrated);
@@ -60,6 +63,7 @@ function App() {
 
   return (
     <>
+      <UpdateOverlay isUpdating={isUpdating} />
       <SyncOverlay 
         isSyncing={syncState.isSyncing} 
         message={syncState.message} 

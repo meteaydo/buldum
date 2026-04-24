@@ -372,6 +372,20 @@
   text-align: center;
 }
 
+.app-version-hint {
+  font-size: 0.65rem;
+  color: #d1d5db;
+  margin-top: 0.25rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-version-hint {
+    color: #4b5563;
+  }
+}
+
 /* Sınıf kartı aksanı */
 .result-type-class .result-icon {
   background-color: rgba(139, 92, 246, 0.1);

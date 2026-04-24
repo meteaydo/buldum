@@ -1,4 +1,3 @@
-import React from 'react';
 import './CustomAlert.css';
 
 interface CustomAlertProps {

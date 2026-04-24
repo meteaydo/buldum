@@ -2,6 +2,63 @@
   "format": "ogretmen_ders_programi",
   "versiyon": 1,
   "ogretmenler": {
+    "SEVGİN SERBEST": {
+      "Pazartesi": {
+        "1": [{"ders": "ALMAN DİLİ VE EDEBİYATI", "sinif": ""}],
+        "2": [{"ders": "ALMAN USULÜ 101", "sinif": ""}],
+        "3": [],
+        "4": [{"ders": "KURULU DÜZENE GİRİŞ", "sinif": ""}],
+        "5": [{"ders": "ÜLKE KISKANDIRMA STRATEJİLERİ", "sinif": ""}],
+        "6": [{"ders": "MESUT ÖZİL TARZI ALMAN VATANDAŞLIĞI", "sinif": ""}],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Salı": {
+        "1": [{"ders": "ALMAN DİLİ VE EDEBİYATI", "sinif": ""}],
+        "2": [{"ders": "ALMAN USULÜ 101", "sinif": ""}],
+        "3": [],
+        "4": [{"ders": "KURULU DÜZENE GİRİŞ", "sinif": ""}],
+        "5": [{"ders": "ÜLKE KISKANDIRMA STRATEJİLERİ", "sinif": ""}],
+        "6": [{"ders": "MESUT ÖZİL TARZI ALMAN VATANDAŞLIĞI", "sinif": ""}],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Çarşamba": {
+        "1": [{"ders": "ALMAN DİLİ VE EDEBİYATI", "sinif": ""}],
+        "2": [{"ders": "ALMAN USULÜ 101", "sinif": ""}],
+        "3": [],
+        "4": [{"ders": "KURULU DÜZENE GİRİŞ", "sinif": ""}],
+        "5": [{"ders": "ÜLKE KISKANDIRMA STRATEJİLERİ", "sinif": ""}],
+        "6": [{"ders": "MESUT ÖZİL TARZI ALMAN VATANDAŞLIĞI", "sinif": ""}],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Perşembe": {
+        "1": [{"ders": "ALMAN DİLİ VE EDEBİYATI", "sinif": ""}],
+        "2": [{"ders": "ALMAN USULÜ 101", "sinif": ""}],
+        "3": [],
+        "4": [{"ders": "KURULU DÜZENE GİRİŞ", "sinif": ""}],
+        "5": [{"ders": "ÜLKE KISKANDIRMA STRATEJİLERİ", "sinif": ""}],
+        "6": [{"ders": "MESUT ÖZİL TARZI ALMAN VATANDAŞLIĞI", "sinif": ""}],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "Cuma": {
+        "1": [{"ders": "ALMAN DİLİ VE EDEBİYATI", "sinif": ""}],
+        "2": [{"ders": "ALMAN USULÜ 101", "sinif": ""}],
+        "3": [],
+        "4": [{"ders": "KURULU DÜZENE GİRİŞ", "sinif": ""}],
+        "5": [{"ders": "ÜLKE KISKANDIRMA STRATEJİLERİ", "sinif": ""}],
+        "6": [{"ders": "MESUT ÖZİL TARZI ALMAN VATANDAŞLIĞI", "sinif": ""}],
+        "7": [],
+        "8": [],
+        "9": []
+      }
+    },
     "ASİBE KARAOĞLU": {
       "Pazartesi": {
         "1": [],

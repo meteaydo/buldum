@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, useNavigate } from 'react-router-dom';
 import { 
@@ -65,7 +65,7 @@ export default function SeatingPlanPage() {
   const [isDragMode, setIsDragMode] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [zoomedStudent, setZoomedStudent] = useState<StudentInfo | null>(null);
-  const toastTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   /** Kalıcı depolama iznini bir kez iste */
   useEffect(() => {

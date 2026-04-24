@@ -17,7 +17,7 @@ export async function parseClassList(file: File): Promise<ParsedStudent[]> {
 
   // Excel'deki resimleri işle
   const processedImages = images.map(img => {
-    const imageMeta = workbook.model.media?.find(m => m.index === img.imageId);
+    const imageMeta = workbook.model.media?.find(m => (m as any).index === img.imageId);
     let base64Url = null;
     if (imageMeta && imageMeta.buffer) {
       const ext = imageMeta.extension || 'png';

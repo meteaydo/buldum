@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -357,6 +357,9 @@ export default function SpotlightPage() {
               {allStudents.length} öğrenci · {classNames.length} sınıf · {teacherNames.length} öğretmen yüklü
             </p>
           )}
+          <div className="app-version-hint">
+            v{localStorage.getItem('app_version') || '1.0.0'}
+          </div>
         </div>
       </main>
 
