@@ -1,7 +1,7 @@
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { useAuthStore } from '../store/authStore';
 import { signInWithGoogle, signOutUser } from '../services/authService';
-import { verifyAccessCode } from '../services/accessCodeService';
+import { verifyAccessCode, checkEmailIsAuthorized } from '../services/accessCodeService';
 import './LoginPage.css';
 
 /** 6 haneli kod uzunluğu */
@@ -16,10 +16,37 @@ export default function LoginPage() {
   const { user, isAuthenticated, setCodeVerified } = useAuthStore();
   const [isSigningIn, setIsSigningIn] = useState(false);
   const [isVerifying, setIsVerifying] = useState(false);
+  const [isCheckingAuth, setIsCheckingAuth] = useState(false);
   const [codeDigits, setCodeDigits] = useState<string[]>(Array(CODE_LENGTH).fill(''));
   const [error, setError] = useState('');
   const [shakeClass, setShakeClass] = useState('');
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
+
+  /** Otomatik Doğrulama Kontrolü */
+  useEffect(() => {
+    let isMounted = true;
+    const checkAutoAuth = async () => {
+      if (isAuthenticated && user?.email) {
+        setIsCheckingAuth(true);
+        try {
+          const isAuthorized = await checkEmailIsAuthorized(user.email);
+          if (isMounted && isAuthorized) {
+            setCodeVerified(true);
+          }
+        } catch (err) {
+          console.error("Otomatik doğrulama hatası:", err);
+        } finally {
+          if (isMounted) setIsCheckingAuth(false);
+        }
+      }
+    };
+
+    checkAutoAuth();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [isAuthenticated, user?.email, setCodeVerified]);
 
   /** Google popup ile oturum aç */
   const handleGoogleSignIn = async () => {
@@ -171,45 +198,54 @@ export default function LoginPage() {
               <p className="user-email">{user?.email}</p>
             </div>
 
-            <p className="code-label">
-              Size verilen 6 haneli erişim kodunu girin
-            </p>
-
-            {/* PIN Input Kutuları */}
-            <div className={`pin-input-group ${shakeClass}`} onPaste={handlePaste}>
-              {codeDigits.map((digit, idx) => (
-                <input
-                  key={idx}
-                  ref={(el) => { inputRefs.current[idx] = el; }}
-                  type="text"
-                  inputMode="numeric"
-                  maxLength={1}
-                  value={digit}
-                  onChange={(e) => handleDigitChange(idx, e.target.value)}
-                  onKeyDown={(e) => handleKeyDown(idx, e)}
-                  className={`pin-digit ${digit ? 'filled' : ''} ${error ? 'error' : ''}`}
-                  autoFocus={idx === 0}
-                />
-              ))}
-            </div>
-
-            {error && <p className="code-error">{error}</p>}
-
-            <button
-              className="btn-verify"
-              onClick={handleVerify}
-              disabled={!isCodeComplete || isVerifying}
-            >
-              {isVerifying ? (
+            {isCheckingAuth ? (
+              <div style={{ textAlign: 'center', padding: '2rem 0' }}>
                 <div className="login-spinner" style={{ margin: '0 auto' }} />
-              ) : (
-                'Doğrula'
-              )}
-            </button>
+                <p style={{ marginTop: '1rem', color: '#64748b' }}>Yetkiler kontrol ediliyor...</p>
+              </div>
+            ) : (
+              <>
+                <p className="code-label">
+                  Size verilen 6 haneli erişim kodunu girin
+                </p>
 
-            <button className="btn-switch-account" onClick={handleSwitchAccount}>
-              Farklı hesapla giriş yap
-            </button>
+                {/* PIN Input Kutuları */}
+                <div className={`pin-input-group ${shakeClass}`} onPaste={handlePaste}>
+                  {codeDigits.map((digit, idx) => (
+                    <input
+                      key={idx}
+                      ref={(el) => { inputRefs.current[idx] = el; }}
+                      type="text"
+                      inputMode="numeric"
+                      maxLength={1}
+                      value={digit}
+                      onChange={(e) => handleDigitChange(idx, e.target.value)}
+                      onKeyDown={(e) => handleKeyDown(idx, e)}
+                      className={`pin-digit ${digit ? 'filled' : ''} ${error ? 'error' : ''}`}
+                      autoFocus={idx === 0}
+                    />
+                  ))}
+                </div>
+
+                {error && <p className="code-error">{error}</p>}
+
+                <button
+                  className="btn-verify"
+                  onClick={handleVerify}
+                  disabled={!isCodeComplete || isVerifying}
+                >
+                  {isVerifying ? (
+                    <div className="login-spinner" style={{ margin: '0 auto' }} />
+                  ) : (
+                    'Doğrula'
+                  )}
+                </button>
+
+                <button className="btn-switch-account" onClick={handleSwitchAccount}>
+                  Farklı hesapla giriş yap
+                </button>
+              </>
+            )}
           </div>
         )}
       </div>

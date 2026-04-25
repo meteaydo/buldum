@@ -34,6 +34,20 @@ export async function verifyAccessCode(email: string, code: string): Promise<boo
 }
 
 /**
+ * Belirtilen e-posta adresinin herhangi bir koda atanıp atanmadığını kontrol eder.
+ * Kullanıcı Google ile giriş yaptığında otomatik doğrulama için kullanılır.
+ */
+export async function checkEmailIsAuthorized(email: string): Promise<boolean> {
+  if (!email) return false;
+  const q = query(
+    collection(db, COLLECTION_NAME),
+    where('email', '==', email.toLowerCase().trim())
+  );
+  const snapshot = await getDocs(q);
+  return !snapshot.empty;
+}
+
+/**
  * Admin paneli için tüm erişim kodlarını getirir.
  * Koda göre sıralı döner.
  */
